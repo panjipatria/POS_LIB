@@ -1,0 +1,33 @@
+{
+    "registerUser": "POST:/auth/register",
+    "verifyUser": "POST:/auth/verify",
+    "resendOtpUser": "POST:/auth/resend",
+    "loginUser": "POST:/auth/login",
+    "logout": "GET:/auth/logout",
+    "getUserDetails": "GET:/auth/profile",
+    "updateProfile": "PUT:/auth/profile",
+    "updatePassword": "PUT:/auth/change-password",
+    "forgotPassword": "POST:/auth/forgot-password",
+    "resetPassword": "PUT:/auth/reset-password/:token",
+    "getAllUser": "GET:/auth/admin",
+    "createUser": "POST:/auth/admin",
+    "getSingleUser": "GET:/auth/admin/:id",
+    "deleteUser": "DELETE:/auth/admin/:id",
+    "deleteUserAccount": "DELETE:/auth/admin/account/:id",
+
+    "createStore": "POST:/store",
+    "getAllStore": "GET:/store",
+    "getOneStore": "GET:/store/:id",
+    "updateStore": "PUT:/store/:id",
+    "deleteStore": "DELETE:/store/:id",
+    "addStoreSosmed": "PUT:/store/:id",
+    "removeStoreSosmed": "DELETE:/store/:id",
+    "addBranch": "PUT:/store/branch/:id",
+
+    "createRole": "POST:/role",
+    "addPermission": "PUT:/role/permission/:id",
+    "deletePermission": "DELETE:/role/permission/:id",
+    "deleteRole": "DELETE:/role/:id",
+    "getAllRole": "GET:/role",
+    "getOneRole": "GET:/role/:id"
+}
